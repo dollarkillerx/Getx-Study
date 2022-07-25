@@ -1,4 +1,5 @@
 import 'package:get/get.dart';
+import '../../pages/camera/index.dart';
 import '../../pages/home/index.dart';
 import '../../pages/list/index.dart';
 import '../../pages/list_detail/index.dart';
@@ -16,6 +17,10 @@ class AppPages {
     GetPage(
       name: AppRoutes.Login,
       page: () => LoginView(),
+    ),
+    GetPage(
+      name: AppRoutes.CameraApp,
+      page: () => CameraApp(),
     ),
 
     // 我的，需要认证

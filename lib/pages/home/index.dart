@@ -81,6 +81,11 @@ class HomeView extends StatelessWidget {
             subtitle: Text('Get.toNamed(AppRoutes.My)'),
             onTap: () => Get.toNamed(AppRoutes.My),
           ),
+          ListTile(
+            title: Text("CameraApp"),
+            subtitle: Text('Get.toNamed(AppRoutes.CameraApp)'),
+            onTap: () => Get.toNamed(AppRoutes.CameraApp),
+          ),
         ],
       ),
     );
