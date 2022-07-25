@@ -1,5 +1,8 @@
 import 'package:get/get.dart';
+import 'package:getx_study/pages/obx/obx.dart';
+import 'package:getx_study/pages/state_workers/index.dart';
 import '../../pages/camera/index.dart';
+import '../../pages/getx/index.dart';
 import '../../pages/home/index.dart';
 import '../../pages/list/index.dart';
 import '../../pages/list_detail/index.dart';
@@ -36,6 +39,18 @@ class AppPages {
       name: AppRoutes.Home,
       page: () => HomeView(),
       children: [
+        GetPage(
+          name: AppRoutes.Obs,
+          page: () => StateObxView(),
+        ),
+        GetPage(
+          name: AppRoutes.Getx,
+          page: () => StateGetxView(),
+        ),
+        GetPage(
+          name: AppRoutes.Workers,
+          page: () => StateWorkersView(),
+        ),
         GetPage(
           name: AppRoutes.List,
           page: () => ListView(),

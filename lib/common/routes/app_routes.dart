@@ -13,4 +13,8 @@ abstract class AppRoutes {
 
   static const Login = '/login';
   static const My = '/my';
+
+  static const Obs = '/obs';
+  static const Getx = '/getx';
+  static const Workers = '/workers';
 }

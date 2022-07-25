@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:get/get.dart';
 
 class LoginView extends StatefulWidget {
   @override
@@ -75,6 +76,7 @@ class _LoginViewState extends State<LoginView> {
               jc.text = userName.text + password.text;
               setString("jc", jc.text);
             });
+
           }, child: Text("Login")),
         ],
       ),
